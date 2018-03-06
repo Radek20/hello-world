@@ -1,14 +1,8 @@
-#ifndef napis_h
-#define napis_h
+#include "napis.h"
 
-
+#include <iostream>
 using namespace std;
 
-class napis
-{
-    public:
-    void wypisz();
-};
 
-
-#endif
+void napis::wypisz()
+{std::cout<<"Hello World!"<<std::endl;}
