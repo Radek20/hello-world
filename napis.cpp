@@ -1,4 +1,14 @@
-#include "napis.h"
+#ifndef napis_h
+#define napis_h
 
-void napis::wypisz()
-{cout<<"Hellow World!!!"<<endl;}
+
+using namespace std;
+
+class napis
+{
+    public:
+    void wypisz();
+};
+
+
+#endif
