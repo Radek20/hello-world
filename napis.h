@@ -1,7 +1,7 @@
 #ifndef napis_h
-#define napis_h 
+#define napis_h
 
-#include <iostream>
+
 using namespace std;
 
 class napis
@@ -12,3 +12,4 @@ class napis
 
 
 #endif
+
